@@ -1,0 +1,65 @@
+#MenuLogin {
+    width: 100%;
+    height: 700px;
+    background: #ffffff;
+}
+
+#MenuLogin .card {
+    width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+    #MenuLogin .card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #MenuLogin .card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #MenuLogin .card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #MenuLogin .card {
+        width: 100%;
+    }
+}
+
+#MenuLogin .card .card-header {
+    background: #323a45;
+    border: none;
+    color: white;
+}
+
+#MenuLogin .card .card-header p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#MenuLogin .card .card-block {
+    background: #ebe9e9;
+    border: none;
+}
+
+#MenuLogin .card .card-block .position-input {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#MenuLogin .card .card-block img.pass {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    padding: 2px;
+}
+
+#MenuLogin .card .card-block input[type="submit"] {
+    width: 100%;
+}
